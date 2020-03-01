@@ -11,9 +11,18 @@ body{
     padding-top: 100px;
    
 }
+.middle-container{
+    margin-top:100px;
+}
 #beno{
-    border-radius: 20%;
+    border-radius: 100%;
 
+}
+hr{
+    border-top: 5px dashed;
+    width:5%;
+    border-top-color: #EAF6F6;
+    margin-top: 100px;
 }
 h1{
     margin: 50px auto 0 auto; 
@@ -38,11 +47,33 @@ h3{
 
 
 }
+.skills{
+    margin-top: 100px;
+
+}
 .footer-link{
     color: #11999E;
 
 
 }
+.skill-row{
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.slika{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.guitar{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
 .top-cloud{
     position: absolute;
     right: 500px;
@@ -54,9 +85,58 @@ h3{
     font-weight: normal;
 
 }
-
+.contact-me{
+    margin-top: 100px;
+}
 
 .bottom-cloud{
     position: absolute;
     left:500px;
 }
+
+.bottom-container
+{
+    margin-top: 200px;
+    background-color: #66BFBF;
+    height: 100px;
+    margin-bottom: 0;
+    padding:50px;
+
+}
+.footer-link{
+    color: #11999E;
+    margin:15px;
+}
+.bottom-container p{
+    color:#EAF6F6;
+}
+.contact-me{
+    padding:10px;
+    line-height: 2;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:16px 69px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    margin-top:50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+     
